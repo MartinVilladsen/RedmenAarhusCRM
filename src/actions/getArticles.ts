@@ -9,11 +9,3 @@ export async function getArticles() {
 
 	return { articles }
 }
-
-export async function getPodcasts() {
-	const podcasts = await prisma.podcast.findMany({
-		orderBy: { createdAt: "desc" },
-	})
-
-	return { podcasts }
-}

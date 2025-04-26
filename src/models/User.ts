@@ -6,4 +6,7 @@ export type User = {
     department: Department;
     image: string;
     role: string;
+    email: string;
+    password: string;
+    birthday: Date;
 }

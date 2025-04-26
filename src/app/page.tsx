@@ -1,4 +1,5 @@
-import { getArticles, getPodcasts } from "@/actions/getArticles";
+import { getArticles } from "@/actions/getArticles";
+import { getPodcasts } from "@/actions/getPodcasts";
 import LandingPage from "@/components/BecomeMemberLandingPage";
 import Header from "@/components/Header";
 import NewsSection from "@/components/NewsSection";

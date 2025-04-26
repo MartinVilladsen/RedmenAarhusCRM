@@ -5,5 +5,6 @@ export type Podcast = {
     subject: string;
     title: string;
     image: string;
+    content: string;
     user: User;
 }
